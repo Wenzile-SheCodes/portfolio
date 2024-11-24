@@ -1,0 +1,9 @@
+body{
+    background-color:#f0f8ff;
+    text-align: center; 
+}
+.box{
+    margin-top:60px;
+    padding:60px;
+    background-image:linear-gradient(323deg, rgba(89, 131, 252, 1) 0%, rgba(194, 244, 10, 1) 22%, rgba(227, 18, 72, 1) 52%, rgba(213, 94, 23, 1) 72%, rgba(184, 34, 238, 1) 99%); 
+}
