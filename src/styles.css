@@ -1,6 +1,6 @@
 body{
     background-color:#f0f8ff ;
-text-align: center; 
+    text-align: center; 
 }
 
 h1,
@@ -10,11 +10,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 h3 {
@@ -35,20 +35,28 @@ p {
     padding:60px;
     background-image:linear-gradient(323deg, rgba(89, 131, 252, 1) 0%, rgba(194, 244, 10, 1) 22%, rgba(227, 18, 72, 1) 52%, rgba(213, 94, 23, 1) 72%, rgba(184, 34, 238, 1) 99%); 
 }
-
+.about-section-container {
+    margin:30px;
+    padding:10px;
+}
+.img-fluid{
+    border-radius: 15px;
+    box-shadow: 5px;
+    width:600px;
+}
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 30px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 29px;
     text-align: center;
   }
 
   h3{
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
   }
 
