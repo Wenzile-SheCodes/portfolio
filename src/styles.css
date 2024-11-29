@@ -75,6 +75,9 @@ p {
   line-height: 1.6;
   font-weight: 10px;
 }
+.bottom{
+  padding:10px;
+}
 
 @media (max-width: 576px) {
   h1 {
