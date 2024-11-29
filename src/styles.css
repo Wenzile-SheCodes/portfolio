@@ -1,11 +1,20 @@
+:root {
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body{
     background-color:#f0f8ff ;
-    text-align: center; 
+    text-align: center;
+    font-family: var(--default-font-family); 
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
+  font-family: var(--heading-font-family);
   margin: 0;
 }
 
