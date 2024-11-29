@@ -1,5 +1,5 @@
 :root {
-  --secondary-color: #f9f7fe;
+  --secondary-color: #e2dcf2;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -53,6 +53,29 @@ p {
     box-shadow: 5px;
     width:600px;
 }
+
+.contact-box{
+  background: var(--secondary-color);
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+ width: 800px;
+}
+
+.social-link{
+  padding-top: 2px;
+ padding-right: 10px;
+}
+.social-links{
+ justify-content: center;
+}
+.email-link{
+  color:#373737b6;
+  font-family: var(--default-font-family);
+  line-height: 1.6;
+  font-weight: 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
